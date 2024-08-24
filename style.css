@@ -17,26 +17,27 @@ html {
 .container-nav {
     display: flex;
     color: #fff;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     border-bottom: 2px solid lightgray;
     justify-content: space-between;
     gap: 2em;
 }
 
 .logo {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     flex: initial;
     display: flex;
     justify-content: center;
 }
 
-.logo img {
+.logo img, 
+.icon-container img {
     width: 50%;
     height: 100%;
 }
 
 .nav-list {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     gap: 2em;
     flex: initial;
@@ -47,27 +48,51 @@ html {
     text-decoration: none;
     list-style: none;
     color: black;
+    padding: 13px;
 
     flex: initial;
 }
 
 a:hover {
     cursor: pointer;
-    text-decoration: underline;
-    color: blue;
+    color: rgb(136, 127, 127);
+    background-color: whitesmoke;
 }
 
 .icon-container {
     display: flex;
-    border: 2px solid pink;
-    gap: 3em;
+    /* border: 2px solid pink; */
     justify-content: center;
 }
 
 .icon-container .icon1 {
-    border: 2px solid black
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
 }
 
 .icon-container .icon2 {
-    border: 2px solid saddlebrown;
+    display: flex;
+    /* border: 2px solid saddlebrown; */
+    justify-content: center;
+}
+
+.container-1 {
+    display: flex;
+    /* background-color: beige; */
+    gap: 2em;
+    margin: 20px;
+    height: 850px;
+}
+
+.container-1 .content-a, 
+.container-1 .content-b {
+    background-color: whitesmoke;
+    flex: initial;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+p {
+    padding: 10px;
 }
