@@ -11,9 +11,9 @@ body {
     background-color: #dae7f7;
     font-family: Georgia, serif;
     font-size: 16px;
-
+    color: black;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 4em;
 }
 /* nav bar  */
