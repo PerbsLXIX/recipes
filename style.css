@@ -1,98 +1,45 @@
 * {
     /* outline: 2px solid black; */
-    /* box-sizing: inherit; */
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-    /* box-sizing: border-box; */
-    background-color: #fff;
-    color: #000;
+body {
+    box-sizing: border-box;
+    background-color: #dae7f7;
     font-family: Georgia, serif;
     font-size: 16px;
-}
 
-.container-nav {
     display: flex;
-    color: #fff;
-    /* border: 2px solid yellow; */
-    border-bottom: 2px solid lightgray;
-    justify-content: space-between;
-    gap: 2em;
+    /* flex-direction: column; */
+    gap: 4em;
+}
+/* nav bar  */
+.nav {
+    background-color: #6287bb;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex: 1;
+    gap: 1em;
 }
 
-.logo {
-    /* border: 2px solid green; */
-    flex: initial;
+.nav .nav-list, .img-holder {
     display: flex;
     justify-content: center;
-}
-
-.logo img, 
-.icon-container img {
-    width: 50%;
-    height: 100%;
-}
-
-.nav-list {
-    /* border: 2px solid red; */
-    display: flex;
-    gap: 2em;
-    flex: initial;
     align-items: center;
 }
 
-.nav-list a {
+.img-holder {
+    flex-shrink: 1;
+    gap: 1em;
+}
+
+a {
     text-decoration: none;
-    list-style: none;
-    color: black;
-    padding: 13px;
-
-    flex: initial;
+    color: #f9faf7;
+    padding: 10px 20px;
 }
 
-a:hover {
-    cursor: pointer;
-    color: rgb(136, 127, 127);
-    background-color: whitesmoke;
-}
-
-.icon-container {
-    display: flex;
-    /* border: 2px solid pink; */
-    justify-content: center;
-}
-
-.icon-container .icon1 {
-    display: flex;
-    /* border: 2px solid black; */
-    justify-content: center;
-}
-
-.icon-container .icon2 {
-    display: flex;
-    /* border: 2px solid saddlebrown; */
-    justify-content: center;
-}
-
-.container-1 {
-    display: flex;
-    /* background-color: beige; */
-    gap: 2em;
-    margin: 20px;
-    height: 850px;
-}
-
-.container-1 .content-a, 
-.container-1 .content-b {
-    background-color: whitesmoke;
-    flex: initial;
-    padding: 1em;
-    border-radius: 5px;
-}
-
-p {
-    padding: 10px;
-}
