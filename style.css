@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid black;
+    /* outline: 2px solid black; */
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -116,4 +116,8 @@ body {
 .steps-info li, 
 .additional-info li {
     margin-left: 30px;
+}
+
+.container h3 {
+    font-size: 25px;
 }
