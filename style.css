@@ -14,7 +14,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    /* gap: 1em; */
 }
 /* nav bar  */
 .nav {
@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
 }
 
 .img-holder {
@@ -47,7 +47,7 @@ body {
 }
 
 /* list */
-.header {
+.header, .title-container{
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -70,4 +70,43 @@ body {
 
 .list a {
     color: black;
+}
+/* chocolate chips */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    gap: 2em;
+}
+
+.img-container img {
+    border-radius: 10px;
+}
+
+.desc-info, 
+.ingre-info, 
+.steps-info,
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.ingre-info li {
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 0;
+}
+
+.steps-info li, 
+.additional-info li {
+    margin-left: 30px;
 }
