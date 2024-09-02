@@ -11,25 +11,24 @@ body {
     background-color: #dae7f7;
     font-family: Georgia, serif;
     font-size: 16px;
-    color: black;
+
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 1em;
 }
 /* nav bar  */
 .nav {
     background-color: #6287bb;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px;
-    flex: 1;
-    gap: 1em;
 }
 
 .nav .nav-list, .img-holder {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1em;
 }
 
 .img-holder {
@@ -37,9 +36,38 @@ body {
     gap: 1em;
 }
 
-a {
+.nav-list a, 
+.list a {
     text-decoration: none;
     color: #f9faf7;
     padding: 10px 20px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
 }
 
+/* list */
+.header {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1em;
+    align-items: center;
+}
+
+.list a {
+    color: black;
+}
